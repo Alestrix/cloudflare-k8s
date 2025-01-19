@@ -27,6 +27,8 @@ docker run --rm -v ./creds/:/home/nonroot/.cloudflared/ cloudflare/cloudflared:l
 sudo chmod g+r creds/*
 ```
 
+Todo: describe how to configure (via web) the argo tunnel forwarding when using credentials files.
+
 ## Which sites?
 So far I run these sites in a very competitively priced [rackspace spot](https://spot.rackspace.com/) kubernetes cluster and expose them via a cloudflare tunnel:
 - istesdns.de:
