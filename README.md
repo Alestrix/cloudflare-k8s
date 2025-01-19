@@ -28,7 +28,7 @@ sudo chmod g+r creds/*
 ```
 
 ## Which sites?
-So far I run these sites in a rackspace kubernetes cluster and expose them via a cloudflare tunnel:
+So far I run these sites in a very competitively priced [rackspace spot](https://spot.rackspace.com/) kubernetes cluster and expose them via a cloudflare tunnel:
 - istesdns.de:
   - URL: <https://istesdns.de>
   - Repo: <https://github.com/Alestrix/istesdns.de> (see subdir `k8s`)
