@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: cf-credfile
+type: Opaque
+stringData:
+  credentials.json: |
+    {
+      "AccountTag": "some_data",
+      "TunnelSecret": "more_data",
+      "TunnelID": "even_more_data"
+    }

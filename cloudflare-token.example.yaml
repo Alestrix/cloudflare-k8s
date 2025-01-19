@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: cf-token
+type: Opaque
+stringData:
+  MY_TOKEN: "here_comes_the_token"
