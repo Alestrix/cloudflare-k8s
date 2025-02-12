@@ -48,7 +48,10 @@ spec:
         resources:
           limits:
             cpu: 1
-            memory: 128M
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 64Mi
       volumes:
       # Create a config.yaml file from the ConfigMap below.
       - name: config
